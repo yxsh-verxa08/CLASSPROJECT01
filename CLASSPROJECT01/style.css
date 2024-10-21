@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.logo p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.hero {
+    background-image:url("vineyard.png"); /* Replace with the actual image URL */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h2 {
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    max-width: 600px;
+}
+.wine-experience {
+    padding: 80px;
+    text-align: left;
+}
+
+.wine-experience h3 {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #999;
+    height: 150px;
+}
+
+.wine-experience h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #a39244;
+    margin-bottom: 20px;
+}
+
+.experience-content {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.experience-content p {
+    font-size: 16px;
+    color: #555;
+    max-width: 500px;
+    line-height: 1.8;
+}
+.scenery {
+    background-image: url('your-image-path.jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.button {
+    padding: 12px 24px;
+    background-color: #ffde59;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ffc107;
+}
+/* Adventure Section */
+.adventure {
+    background-image: url('your-adventure-image-path.jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.adventure-content h1 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+/* Footer */
+footer {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-content .logo {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+footer nav {
+    margin: 20px 0;
+}
+
+footer nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer nav a:hover {
+    color: #ffde59;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+footer p a {
+    color: #ccc;
+    text-decoration: none;
+}
